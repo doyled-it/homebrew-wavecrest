@@ -1,17 +1,17 @@
 class Wavecrest < Formula
   desc "Wave Terminal companion for AI coding agents"
   homepage "https://github.com/doyled-it/wavecrest"
-  version "0.1.9"
+  version "0.1.10"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/doyled-it/wavecrest/releases/download/v#{version}/wavecrest-darwin-arm64.tar.gz"
-      sha256 "5f2f00ff90f14ec4515ef4e5ed3542e26d3cef1a6ac3df2b58874772c04e4b48"
+      sha256 "3558e36fac9d3483a655acdcc630f228f537127a6e53b4fcb27121c40160d305"
     end
     on_intel do
       url "https://github.com/doyled-it/wavecrest/releases/download/v#{version}/wavecrest-darwin-x64.tar.gz"
-      sha256 "f4b4f48b31fc91fc92a027caa335e58b359a573fd0e4bc663b3885f354bbd049"
+      sha256 "54c7fd7b4165460aaaa5c7acfa7ea7b46a369df233fc17b89d020a7dc41acddf"
     end
   end
 
